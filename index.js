@@ -11,6 +11,6 @@ let resultEl = document.getElementById('result')
 function calculate() {
   var numOne = document.getElementById('n1').value
   var numTwo = document.getElementById('n2').value
-  var total = parseInt(numOne) * parseInt(numTwo) * 0.002
+  var total = parseInt(numOne) * parseInt(numTwo) * 0.0031
   resultEl.textContent = 'Krissy has wasted $' + total + ' leaving lights on.'
 }
