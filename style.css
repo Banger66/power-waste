@@ -1,7 +1,7 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: darkgrey;
-  background-size: cover;
+  background-image: url(lozza.jpg);
+  background-size: 20%;
   text-align: center;
   color: black;
   font-weight: bold;
@@ -22,3 +22,11 @@ button {
   border-radius: 3px;
   margin: 10px;
 }
+
+div {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-color: grey;
+}
+

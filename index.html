@@ -8,10 +8,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div>
   <h1>Krissy is a power waster</h1>
   <p>How many lights are on?</p>
   <input type="number" name="lights" id="n1">
   <br>
+  <p>What type of lights are they?</p>
+  <select id="lightType">
+    <option value=0.0003>LED</option>
+    <option value=0.0023>Incandescent</option>
+  </select>
   <p>How many minutes have they been on for?</p>
   <input type="number" name="time" id="n2">
   <br>
@@ -19,6 +25,7 @@
   <p>_______________________</p>
   <p id="result"></p>
   <br>
+  </div>
   <script src="index.js"></script>
 </body>
 </html>
