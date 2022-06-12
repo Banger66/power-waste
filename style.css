@@ -7,8 +7,8 @@ body {
   font-weight: bold;
 }
 
-#message-el {
-  font-style: italic;
+h1 {
+  text-transform: uppercase;
 }
 
 button {
@@ -30,3 +30,20 @@ div {
   background-color: grey;
 }
 
+@media screen and (max-width: 320px) {
+  div {
+    background-color: olive;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div {
+    background-color: blue;
+  }
+}
